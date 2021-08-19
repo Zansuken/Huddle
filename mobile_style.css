@@ -216,20 +216,18 @@ footer nav {
     margin-bottom: 50px;
 }
 
-footer nav ul {
+footer nav a {
     list-style-type: none;
-    margin-left: -30px;
-}
-
-footer nav ul li {
+    margin-left: 10px;
     margin-bottom: 15px;
-}
-
-footer nav ul li a {
     text-decoration: none;
     color: white;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
 .social {
     width: 100%;
     text-align: center;
