@@ -1,7 +1,7 @@
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1024px) {
     header {
         height: 480px;
-        padding-bottom: 480px;
+        padding-bottom: 280px;
     }
     
     .top_header {
@@ -35,7 +35,7 @@
     }
 
     .mockups {
-        width: 1080px;
+        width: 800px;
         margin-left: 0;
         margin-right: 40px;
     }
@@ -101,7 +101,6 @@
     
     footer nav {
         display: grid;
-        grid: 1fr 1fr 1fr;
         column-gap: 80px;
         position: relative;
         left: -40px;
