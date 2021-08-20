@@ -50,6 +50,16 @@ header {
     font-weight: 700;
 }
 
+.try_button:hover {
+    background-color: rgba(255, 62, 239, 0.945);
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 33px;
+    transition: 0.3s;
+    padding-top: 10px;
+}
+
 .description {
     margin-top: 80px;
     margin-left: 30px;
@@ -83,6 +93,14 @@ header {
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.get_started:hover {
+    background-color: white;
+    color: rgba(255, 62, 239, 0.945);
+    border: solid 2px rgba(255, 62, 239, 0.945);
+    transition: 0.3s;
+    transform: scale(120%);
 }
 
 .mockups {
@@ -224,6 +242,12 @@ footer nav a {
     color: white;
 }
 
+footer nav a:hover {
+    transition: 0.3s;
+    transform: translateX(60px) scale(120%);
+    padding-left: 60px;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -231,6 +255,11 @@ nav {
 .social {
     width: 100%;
     text-align: center;
+}
+
+.social a img:hover {
+    transform: scale(120%) rotate(360deg);
+    transition: 0.3s;
 }
 
 .social_icons_f, .social_icons_t, .social_icons_i {
