@@ -45,6 +45,7 @@ Users should be able to:
 ### What I learned
 
 Transition and transform properties animations on hover and more for the CSS part.
+I tried to find a way to separate every different part of responsive CSS files by general type of devices users could use to navigate on the website.
 
 ### Continued development
 
