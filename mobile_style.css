@@ -32,6 +32,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 30px;
+	padding-right: 15px;
 }
 
 .top_header .logo {
@@ -43,7 +44,6 @@ header {
 }
 
 .try_button {
-	margin-right: 15px;
 	padding-top: 4px;
 	width: 130px;
 	height: 23px;
@@ -60,11 +60,8 @@ header {
 .try_button:hover {
 	background-color: rgba(255, 62, 239, 0.945);
 	color: white;
-	font-size: 16px;
-	width: 150px;
-	height: 33px;
 	transition: 0.3s;
-	padding-top: 10px;
+	transform: scale(1.2);
 }
 
 .description {
@@ -88,25 +85,27 @@ header {
 
 .get_started {
 	display: flex;
-	width: fit-content;
-	max-height: 40px;
-	padding: 12px 60px;
+	width: max-content;
+	align-items: center;
+	padding: 0 20px;
+	height: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 30px;
+	border: solid 2px transparent;
 	border-radius: 30px;
-	background-color: rgba(255, 62, 239, 0.945);
+	background-color: #ff3eeff1;
 	color: white;
 	font-size: 12px;
 	font-weight: 700;
 	text-decoration: none;
+	transition: ease-in 0.3s;
 }
 
 .get_started:hover {
 	background-color: white;
 	color: rgba(255, 62, 239, 0.945);
 	border: solid 2px rgba(255, 62, 239, 0.945);
-	transition: 0.3s;
 	transform: scale(120%);
 }
 
@@ -279,7 +278,7 @@ nav {
 	text-align: center;
 }
 
-.social a img:hover {
+.social a:hover > img {
 	transform: scale(120%) rotate(360deg);
 	transition: 0.3s;
 }
@@ -290,6 +289,12 @@ nav {
 	border: solid white 1px;
 	border-radius: 50%;
 	padding: 5px 8px;
+}
+
+.social_icons_f:hover,
+.social_icons_t:hover,
+.social_icons_i:hover  {
+	border-color: #ff3eeff1;
 }
 
 .social_icons_t {

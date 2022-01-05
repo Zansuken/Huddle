@@ -35,9 +35,13 @@
     }
 
     .mockups {
-        width: 800px;
+        width: unset;
+        max-width: 800px;
         margin-left: 0;
-        margin-right: 40px;
+        margin-right: 0;
+        object-fit: cover;
+        object-position: left;
+        overflow: hidden;
     }
 
     main {
